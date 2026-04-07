@@ -1,8 +1,9 @@
+'use client';
 import "./globals.css";
 
 export default function Home() {
 
-  return (
+    return (
     <div className="App">
       <h1>Hello </h1>
       <h2>Start editing!</h2>
