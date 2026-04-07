@@ -24,3 +24,32 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product{
+  padding: 4;
+  margin: 4;
+  align-items: center;
+  border: 1 solid #404040;
+  height: 150;
+  width: 150;
+  text-align: center;
+  overflow: hidden;
+
+}
+
+.pagination-buttons {
+  padding: 6px 10px;
+  margin: 4px;
+  border: 1px solid #b5b5b5;
+  cursor: pointer;
+}
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
